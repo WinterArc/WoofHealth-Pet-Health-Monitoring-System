@@ -39,8 +39,7 @@ page_icon="🐕"
 )
 
 #Background & Sidebar Customizations
-st.checkbox("Use url", value=True):
-    add_logo("https://ibb.co/y0QSxQg")
+add_logo("https://ibb.co/y0QSxQg")
 
 def set_bg_hack_url():
     '''
