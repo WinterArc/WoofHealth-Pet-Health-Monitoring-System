@@ -1,0 +1,9 @@
+firebase_admin==6.1.0
+langchain==0.0.141
+llama_index==0.5.12
+Pillow==9.4.0
+Pillow==9.5.0
+Pyrebase4==4.6.0
+streamlit==1.21.0
+streamlit_authenticator==0.2.1
+streamlit_extras==0.2.7
