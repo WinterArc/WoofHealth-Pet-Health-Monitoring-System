@@ -40,8 +40,13 @@ page_icon="🐕"
 #Background & Sidebar Customizations
 with st.sidebar.container():
     st.markdown('<div style="text-align:left;font-size:14px; color:black;position: fixed;bottom: 60px;right: 702px;">Made By Taashwin Reddy ™️</div>', unsafe_allow_html=True)
-    image = Image.open(r"C:\Users\taash\Downloads\FYPAPP\WoofHealth Logo.png")
-    st.image(image, use_column_width=True)
+ st.image(
+            "https://ibb.co/y0QSxQg",
+
+            use_column_width=True
+        )
+    #image = Image.open(r"C:\Users\taash\Downloads\FYPAPP\WoofHealth Logo.png")
+    #st.image(image, use_column_width=True)
 
 
 
