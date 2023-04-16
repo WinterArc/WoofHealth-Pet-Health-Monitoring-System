@@ -3,6 +3,7 @@ from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMP
 from langchain.chains.conversation.memory import ConversationEntityMemory
 from streamlit_extras.switch_page_button import switch_page
 from langchain.chains import ConversationChain
+from streamlit_extras.app_logo import add_logo
 from streamlit_extras.let_it_rain import rain
 from streamlit_extras.badges import badge
 import streamlit_authenticator as stauth
@@ -38,30 +39,8 @@ page_icon="🐕"
 )
 
 #Background & Sidebar Customizations
-def add_logo():
-    st.markdown(
-        """
-        <style>
-            [data-testid="stSidebarNav"] {
-                background-image: url(https://ibb.co/y0QSxQg);
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-            [data-testid="stSidebarNav"]::before {
-                content: "My Company Name";
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 100px;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
-
+st.checkbox("Use url", value=True):
+    add_logo("https://ibb.co/y0QSxQg")
 
 def set_bg_hack_url():
     '''
